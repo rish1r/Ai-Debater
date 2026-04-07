@@ -2,7 +2,7 @@ import { OpenRouter } from "@openrouter/sdk";
 
 const client = new OpenRouter({
   apiKey:
-    "sk-hc-v1-306eecc5df5a4563835750d878ac074fe1b2e73922d044cf860091ab4756331a",
+    "",
   serverURL: "https://ai.hackclub.com/proxy/v1",
 });
 
