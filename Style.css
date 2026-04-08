@@ -41,3 +41,9 @@ body {
   border-radius: 10px;
   border-color: aqua;
 }
+
+.textBox {
+  width: auto;
+  padding: 20px;
+  text-align: center;
+}
