@@ -33,11 +33,11 @@ body {
 }
 
 .myBox {
-  width: 90%;
-  max-width: 600px;
-  display: flex;
-  margin-top: 100px;
-  height: 10%;
-  margin: 200px auto 0 auto;
-  padding: 30px;
+  width: 600px;
+  height: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 16px;
+  border-radius: 10px;
+  border-color: aqua;
 }

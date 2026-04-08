@@ -1,0 +1,27 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "# Ai-Debater",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rish1r/Ai-Debater.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rish1r/Ai-Debater/issues"
+  },
+  "homepage": "https://github.com/rish1r/Ai-Debater#readme",
+  "dependencies": {
+    "express": "^4.0.0",
+    "dotenv": "^16.0.0",
+    "@openrouter/sdk": "^latest"
+  }
+}
