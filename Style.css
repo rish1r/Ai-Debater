@@ -3,33 +3,104 @@ h1 {
   text-align: center;
   font-weight: bold;
 
-  background: linear-gradient(90deg, #ff4d4d, #ff99cc, #ff4d4d);
+  background: linear-gradient(90deg, #978585, #afa3a9, #ffffff);
   background-size: 200% auto;
 
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 
-  animation: gradientMove 3s linear infinite;
+  animation: floatWave 2s ease-in-out infinite;
 }
-
-@keyframes gradientMove {
-  0% {
-    background-position: 0% center;
-  }
-  100% {
-    background-position: 200% center;
-  }
-}
-
 body {
   background-color: black;
   margin: 0;
-  height: 100vh;
-
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* moves content down */
-  align-items: center; /* centers horizontally */
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.wave-title {
+  margin-top: 0;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+}
+
+.wave-title span {
+  display: inline-block;
+  color: white;
+  animation: wave 1.2s ease-in-out infinite;
+}
+
+.wave-title span:nth-child(1) {
+  animation-delay: 0s;
+}
+.wave-title span:nth-child(2) {
+  animation-delay: 0.05s;
+}
+.wave-title span:nth-child(3) {
+  animation-delay: 0.1s;
+}
+.wave-title span:nth-child(4) {
+  animation-delay: 0.15s;
+}
+.wave-title span:nth-child(5) {
+  animation-delay: 0.2s;
+}
+.wave-title span:nth-child(6) {
+  animation-delay: 0.25s;
+}
+.wave-title span:nth-child(7) {
+  animation-delay: 0.3s;
+}
+.wave-title span:nth-child(8) {
+  animation-delay: 0.35s;
+}
+.wave-title span:nth-child(9) {
+  animation-delay: 0.4s;
+}
+.wave-title span:nth-child(10) {
+  animation-delay: 0.45s;
+}
+.wave-title span:nth-child(11) {
+  animation-delay: 0.5s;
+}
+.wave-title span:nth-child(12) {
+  animation-delay: 0.55s;
+}
+.wave-title span:nth-child(13) {
+  animation-delay: 0.6s;
+}
+.wave-title span:nth-child(14) {
+  animation-delay: 0.65s;
+}
+.wave-title span:nth-child(15) {
+  animation-delay: 0.7s;
+}
+.wave-title span:nth-child(16) {
+  animation-delay: 0.75s;
+}
+.wave-title span:nth-child(17) {
+  animation-delay: 0.8s;
+}
+.wave-title span:nth-child(18) {
+  animation-delay: 0.85s;
+}
+.wave-title span:nth-child(19) {
+  animation-delay: 0.9s;
+}
+
+@keyframes wave {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
 }
 
 .myBox {
@@ -39,7 +110,7 @@ body {
   margin-bottom: 20px;
   padding: 10px 16px;
   border-radius: 10px;
-  border-color: aqua;
+  border: 2px solid aqua;
 }
 
 .textBox {
